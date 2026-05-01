@@ -1,0 +1,731 @@
+{
+  "_note": "Semantic color tokens for Pascal. Disney+ values are dark-mode; Hulu values are light-mode. ESPN values are pending.",
+  "surface": {
+    "action": {
+      "disney": {
+        "primitive": "teal-60",
+        "hex": "#33DDFF"
+      },
+      "hulu": {
+        "primitive": "blue-40",
+        "hex": "#0F5ABD"
+      },
+      "espn": "PENDING"
+    },
+    "on-surface": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "on-surface-variant": {
+      "disney": {
+        "primitive": "neutral-70",
+        "hex": "#B7B8BD"
+      },
+      "hulu": {
+        "primitive": "neutral-30",
+        "hex": "#424857"
+      },
+      "espn": "PENDING"
+    },
+    "outline": {
+      "disney": {
+        "primitive": "neutral-50",
+        "hex": "#6F717B"
+      },
+      "hulu": {
+        "primitive": "neutral-50",
+        "hex": "#6E7891"
+      },
+      "espn": "PENDING"
+    },
+    "outline-variant": {
+      "disney": {
+        "primitive": "neutral-30",
+        "hex": "#4B4E5A"
+      },
+      "hulu": {
+        "primitive": "neutral-80",
+        "hex": "#C5C9D3"
+      },
+      "espn": "PENDING"
+    },
+    "scrim": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "shadow-shadow-amb": {
+      "disney": {
+        "primitive": null,
+        "hex": "#000000"
+      },
+      "hulu": {
+        "primitive": null,
+        "hex": "#000000"
+      },
+      "espn": "PENDING"
+    },
+    "shadow-shadow-key": {
+      "disney": {
+        "primitive": null,
+        "hex": "#000000"
+      },
+      "hulu": {
+        "primitive": null,
+        "hex": "#000000"
+      },
+      "espn": "PENDING"
+    },
+    "shadow-shadow-outline": {
+      "disney": {
+        "primitive": null,
+        "hex": "#FFFFFF"
+      },
+      "hulu": {
+        "primitive": null,
+        "hex": "#000000"
+      },
+      "espn": "PENDING"
+    },
+    "surface": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-96",
+        "hex": "#F2F3F6"
+      },
+      "espn": "PENDING"
+    },
+    "surface-container": {
+      "disney": {
+        "primitive": "neutral-12",
+        "hex": "#1E1F24"
+      },
+      "hulu": {
+        "primitive": "neutral-94",
+        "hex": "#EDEEF1"
+      },
+      "espn": "PENDING"
+    },
+    "surface-container-high": {
+      "disney": {
+        "primitive": "neutral-16",
+        "hex": "#25272C"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "surface-container-highest": {
+      "disney": {
+        "primitive": "neutral-20",
+        "hex": "#2D2F36"
+      },
+      "hulu": {
+        "primitive": "neutral-100",
+        "hex": "#FFFFFF"
+      },
+      "espn": "PENDING"
+    },
+    "surface-container-low": {
+      "disney": {
+        "primitive": "neutral-08",
+        "hex": "#121118"
+      },
+      "hulu": {
+        "primitive": "neutral-92",
+        "hex": "#E6E8ED"
+      },
+      "espn": "PENDING"
+    },
+    "surface-container-lowest": {
+      "disney": {
+        "primitive": "neutral-06",
+        "hex": "#0F1012"
+      },
+      "hulu": {
+        "primitive": "neutral-90",
+        "hex": "#E2E4E9"
+      },
+      "espn": "PENDING"
+    },
+    "surface-gradient-end": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-10",
+        "hex": "#16181D"
+      },
+      "espn": "PENDING"
+    },
+    "surface-gradient-start": {
+      "disney": {
+        "primitive": "neutral-08",
+        "hex": "#121118"
+      },
+      "hulu": {
+        "primitive": "neutral-08",
+        "hex": "#121317"
+      },
+      "espn": "PENDING"
+    },
+    "surface-variant": {
+      "disney": {
+        "primitive": "neutral-22",
+        "hex": "#3C3E48"
+      },
+      "hulu": {
+        "primitive": "neutral-90",
+        "hex": "#E2E4E9"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "inverse": {
+    "inverse-action": {
+      "disney": {
+        "primitive": "teal-30",
+        "hex": "#056D84"
+      },
+      "hulu": {
+        "primitive": "blue-60",
+        "hex": "#3C88EB"
+      },
+      "espn": "PENDING"
+    },
+    "inverse-on-surface": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "inverse-on-surface-variant": {
+      "disney": {
+        "primitive": "neutral-30",
+        "hex": "#4B4E5A"
+      },
+      "hulu": {
+        "primitive": "neutral-70",
+        "hex": "#A8AEBD"
+      },
+      "espn": "PENDING"
+    },
+    "inverse-primary": {
+      "disney": {
+        "primitive": "teal-30",
+        "hex": "#056D84"
+      },
+      "hulu": {
+        "primitive": "green-50",
+        "hex": "#1CE783"
+      },
+      "espn": "PENDING"
+    },
+    "inverse-success": {
+      "disney": {
+        "primitive": "green-30",
+        "hex": "#1B7548"
+      },
+      "hulu": {
+        "primitive": "green-30",
+        "hex": "#0B8E4F"
+      },
+      "espn": "PENDING"
+    },
+    "inverse-surface": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "brand": {
+    "brand": {
+      "disney": {
+        "primitive": "teal-30",
+        "hex": "#056D84"
+      },
+      "hulu": {
+        "primitive": "green-40",
+        "hex": "#12BA69"
+      },
+      "espn": "PENDING"
+    },
+    "brand-bright": {
+      "disney": {
+        "primitive": "teal-60",
+        "hex": "#33DDFF"
+      },
+      "hulu": {
+        "primitive": "green-50",
+        "hex": "#1CE783"
+      },
+      "espn": "PENDING"
+    },
+    "brand-container": {
+      "disney": {
+        "primitive": "teal-20",
+        "hex": "#124954"
+      },
+      "hulu": {
+        "primitive": "green-20",
+        "hex": "#066034"
+      },
+      "espn": "PENDING"
+    },
+    "brand-container-text": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "brand-disabled": {
+      "disney": {
+        "primitive": "teal-50",
+        "hex": "#0BC9EF"
+      },
+      "hulu": {
+        "primitive": "green-50",
+        "hex": "#1CE783"
+      },
+      "espn": "PENDING"
+    },
+    "on-brand": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "on-brand-container": {
+      "disney": {
+        "primitive": "teal-90",
+        "hex": "#D1F7FF"
+      },
+      "hulu": {
+        "primitive": "green-90",
+        "hex": "#CEFDE7"
+      },
+      "espn": "PENDING"
+    },
+    "on-brand-disabled": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "on-brand-variant": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-20",
+        "hex": "#2C303A"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "secondary": {
+    "on-secondary": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "secondary": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-10",
+        "hex": "#16181D"
+      },
+      "espn": "PENDING"
+    },
+    "secondary-disabled": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "tertiary": {
+    "on-tertiary": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "tertiary": {
+      "disney": {
+        "primitive": "neutral-30",
+        "hex": "#4B4E5A"
+      },
+      "hulu": {
+        "primitive": "neutral-40",
+        "hex": "#586074"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "error": {
+    "error": {
+      "disney": {
+        "primitive": "red-50",
+        "hex": "#CA1F17"
+      },
+      "hulu": {
+        "primitive": "red-40",
+        "hex": "#CC000D"
+      },
+      "espn": "PENDING"
+    },
+    "error-container": {
+      "disney": {
+        "primitive": "red-20",
+        "hex": "#590704"
+      },
+      "hulu": {
+        "primitive": "red-90",
+        "hex": "#FFCCCF"
+      },
+      "espn": "PENDING"
+    },
+    "on-error": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "on-error-container": {
+      "disney": {
+        "primitive": "red-90",
+        "hex": "#EBB9B7"
+      },
+      "hulu": {
+        "primitive": "red-20",
+        "hex": "#660006"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "warning": {
+    "on-warning": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "on-warning-container": {
+      "disney": {
+        "primitive": "yellow-90",
+        "hex": "#FFF4CC"
+      },
+      "hulu": {
+        "primitive": "yellow-20",
+        "hex": "#735102"
+      },
+      "espn": "PENDING"
+    },
+    "warning": {
+      "disney": {
+        "primitive": "yellow-70",
+        "hex": "#FFDD66"
+      },
+      "hulu": {
+        "primitive": "yellow-50",
+        "hex": "#F2AF0D"
+      },
+      "espn": "PENDING"
+    },
+    "warning-container": {
+      "disney": {
+        "primitive": "yellow-20",
+        "hex": "#664F00"
+      },
+      "hulu": {
+        "primitive": "yellow-90",
+        "hex": "#FDE9B9"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "success": {
+    "on-success": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "on-success-container": {
+      "disney": {
+        "primitive": "green-90",
+        "hex": "#C2EDD8"
+      },
+      "hulu": {
+        "primitive": "green-20",
+        "hex": "#066034"
+      },
+      "espn": "PENDING"
+    },
+    "success": {
+      "disney": {
+        "primitive": "green-60",
+        "hex": "#63DC9F"
+      },
+      "hulu": {
+        "primitive": "green-30",
+        "hex": "#0B8E4F"
+      },
+      "espn": "PENDING"
+    },
+    "success-container": {
+      "disney": {
+        "primitive": "green-20",
+        "hex": "#0D522F"
+      },
+      "hulu": {
+        "primitive": "green-90",
+        "hex": "#CEFDE7"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "info": {
+    "info": {
+      "disney": {
+        "primitive": "blue-60",
+        "hex": "#2CB6F6"
+      },
+      "hulu": {
+        "primitive": "blue-40",
+        "hex": "#0F5ABD"
+      },
+      "espn": "PENDING"
+    },
+    "info-container": {
+      "disney": {
+        "primitive": "blue-20",
+        "hex": "#053357"
+      },
+      "hulu": {
+        "primitive": "blue-90",
+        "hex": "#CEE3FD"
+      },
+      "espn": "PENDING"
+    },
+    "on-info": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "on-info-container": {
+      "disney": {
+        "primitive": "blue-90",
+        "hex": "#CCEFFE"
+      },
+      "hulu": {
+        "primitive": "blue-20",
+        "hex": "#052E62"
+      },
+      "espn": "PENDING"
+    }
+  },
+  "component": {
+    "_note": "Pascal-specific component-level tokens. This section will grow as components are documented.",
+    "focus-indicator-focus-indicator": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "focus-indicator-focus-indicator-variant": {
+      "disney": {
+        "primitive": "blue-50",
+        "hex": "#0C9CDF"
+      },
+      "hulu": {
+        "primitive": "blue-50",
+        "hex": "#176EE1"
+      },
+      "espn": "PENDING"
+    },
+    "tag-neutral-neutral-color": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-30",
+        "hex": "#424857"
+      },
+      "espn": "PENDING"
+    },
+    "tag-neutral-neutral-container": {
+      "disney": {
+        "primitive": "neutral-50",
+        "hex": "#6F717B"
+      },
+      "hulu": {
+        "primitive": "neutral-90",
+        "hex": "#E2E4E9"
+      },
+      "espn": "PENDING"
+    },
+    "tag-primary-primary-color": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "tag-primary-primary-container": {
+      "disney": {
+        "primitive": "teal-30",
+        "hex": "#056D84"
+      },
+      "hulu": {
+        "primitive": "green-60",
+        "hex": "#45ED9C"
+      },
+      "espn": "PENDING"
+    },
+    "tag-secondary-secondary-color": {
+      "disney": {
+        "primitive": "neutral-10",
+        "hex": "#17171B"
+      },
+      "hulu": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9FA"
+      },
+      "espn": "PENDING"
+    },
+    "tag-secondary-secondary-container": {
+      "disney": {
+        "primitive": "neutral-98",
+        "hex": "#F9F9F9"
+      },
+      "hulu": {
+        "primitive": "neutral-06",
+        "hex": "#0D0E11"
+      },
+      "espn": "PENDING"
+    },
+    "button-background": {
+      "disney": "PENDING",
+      "hulu": "PENDING",
+      "espn": "PENDING"
+    },
+    "button-label": {
+      "disney": "PENDING",
+      "hulu": "PENDING",
+      "espn": "PENDING"
+    },
+    "input-border": {
+      "disney": "PENDING",
+      "hulu": "PENDING",
+      "espn": "PENDING"
+    },
+    "input-background": {
+      "disney": "PENDING",
+      "hulu": "PENDING",
+      "espn": "PENDING"
+    },
+    "card-surface": {
+      "disney": "PENDING",
+      "hulu": "PENDING",
+      "espn": "PENDING"
+    }
+  }
+}
