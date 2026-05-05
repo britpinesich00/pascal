@@ -62,10 +62,10 @@ export function ColorCard({ tokenName, primitiveRef, hex, hsl }: ColorCardProps)
           className="mt-0.5 truncate text-xs text-surface-foreground-muted"
           title={primitiveRef ?? undefined}
         >
-          {isPending ? "—" : (primitiveRef ?? "—")}
+          {isPending ? "–" : (primitiveRef ?? "–")}
         </p>
         <p className="mt-0.5 font-mono text-xs text-surface-foreground-subtle">
-          {isPending ? "—" : hsl}
+          {isPending ? "–" : hsl}
         </p>
       </div>
     </div>

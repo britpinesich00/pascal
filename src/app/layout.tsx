@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s · Pascal Docs",
   },
   description:
-    "Documentation hub for the Pascal commerce design system — foundations, components, patterns, and resources.",
+    "Documentation hub for the Pascal commerce design system: foundations, components, patterns, and resources.",
 };
 
 export default function RootLayout({

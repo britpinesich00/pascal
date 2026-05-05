@@ -112,22 +112,16 @@ const MATERIAL_SECTIONS: AccordionSection[] = [
     tokens: pickTokens(surface, [
       "surface",
       "surface-variant",
-      "on-surface",
-      "on-surface-variant",
-      "action",
-      "surface-gradient-start",
-      "surface-gradient-end",
-    ]),
-  },
-  {
-    id: "background",
-    label: "Background",
-    tokens: pickTokens(surface, [
       "surface-container-lowest",
       "surface-container-low",
       "surface-container",
       "surface-container-high",
       "surface-container-highest",
+      "on-surface",
+      "on-surface-variant",
+      "action",
+      "surface-gradient-start",
+      "surface-gradient-end",
     ]),
   },
   {
@@ -243,26 +237,20 @@ export default function SemanticColorsPage() {
   return (
     <div className="space-y-8">
       <p className="max-w-prose text-surface-foreground-muted">
-        Semantic tokens give color decisions meaningful names — like{" "}
+        Semantic tokens give color decisions meaningful names like{" "}
         <code className="rounded bg-surface-subtle px-1 py-0.5 font-mono text-sm">
           surface
         </code>{" "}
         or{" "}
         <code className="rounded bg-surface-subtle px-1 py-0.5 font-mono text-sm">
           on-brand
-        </code>{" "}
-        — that remain stable across brands. Each name resolves to a different
+        </code>
+        , names that remain stable across brands. Each resolves to a different
         primitive value depending on the active brand.
       </p>
 
       {/* Color scheme dropdown */}
-      <div className="flex flex-col gap-1.5">
-        <label
-          htmlFor="color-scheme"
-          className="text-xs font-semibold text-surface-foreground-muted"
-        >
-          Color scheme
-        </label>
+      <div>
         <div className="relative w-48">
           <select
             id="color-scheme"
@@ -292,9 +280,9 @@ export default function SemanticColorsPage() {
         {brand === "espn" && (
           <p className="mt-1 text-sm text-surface-foreground-muted">
             <span className="font-semibold text-surface-foreground">
-              ESPN primitives are pending
+              ESPN primitives are pending.
             </span>{" "}
-            — some tokens will show as unresolved until the ESPN palette is
+            Some tokens will show as unresolved until the ESPN palette is
             finalized.
           </p>
         )}

@@ -172,8 +172,8 @@ export default function ColorPrimitivesPage() {
     <div className="space-y-8">
       <p className="max-w-prose text-surface-foreground-muted">
         The raw color scales for Disney+, Hulu, and ESPN. Primitive tokens form
-        the foundation of the Pascal palette — they are not applied directly in
-        UI, but are mapped to semantic tokens that carry contextual meaning.
+        the foundation of the Pascal palette. They are not applied directly in
+        UI; they are mapped to semantic tokens that carry contextual meaning.
       </p>
 
       {/* Color scheme dropdown */}
@@ -213,9 +213,9 @@ export default function ColorPrimitivesPage() {
         {brand === "espn" && (
           <p className="mt-1 text-sm text-surface-foreground-muted">
             <span className="font-semibold text-surface-foreground">
-              ESPN primitives are pending
+              ESPN primitives are pending.
             </span>{" "}
-            — the full palette will appear here once brand tokens are finalized.
+            The full palette will appear here once brand tokens are finalized.
           </p>
         )}
       </div>

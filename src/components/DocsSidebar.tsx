@@ -14,6 +14,13 @@ const COLOR_CHILDREN = [
   { label: "Code", href: "/foundations/colors/code" },
 ];
 
+const TYPOGRAPHY_CHILDREN = [
+  { label: "Overview", href: "/foundations/typography/overview" },
+  { label: "Fonts", href: "/foundations/typography/fonts" },
+  { label: "Typescale & tokens", href: "/foundations/typography/typescale" },
+  { label: "Apply type", href: "/foundations/typography/apply" },
+];
+
 type FlatItem = { type: "link"; label: string; href: string };
 type GroupItem = {
   type: "group";
@@ -35,7 +42,7 @@ const sections: NavSection[] = [
     title: "Foundations",
     items: [
       { type: "group", label: "Color", children: COLOR_CHILDREN },
-      { type: "link", label: "Typography", href: "#" },
+      { type: "group", label: "Typography", children: TYPOGRAPHY_CHILDREN },
       { type: "link", label: "Elevation", href: "#" },
     ],
   },

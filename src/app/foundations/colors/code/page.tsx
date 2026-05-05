@@ -55,8 +55,8 @@ export default function ColorsCodePage() {
         </h2>
         <p className="max-w-prose text-surface-foreground-muted">
           Pascal color tokens are exposed as CSS custom properties and map
-          one-to-one to Tailwind utility classes. Use semantic tokens — never
-          primitive values — in component and layout code.
+          one-to-one to Tailwind utility classes. Use semantic tokens, not
+          primitive values, in component and layout code.
         </p>
       </div>
 
@@ -118,7 +118,7 @@ export default function ColorsCodePage() {
         </h3>
         <p className="text-sm text-surface-foreground-muted max-w-prose">
           Semantic token values change per brand. Components that consume
-          semantic tokens require no code changes to support multiple brands —
+          semantic tokens require no code changes to support multiple brands;
           only the token resolution layer changes. Never hardcode primitive
           values (e.g.{" "}
           <code className="rounded bg-surface-subtle px-1 font-mono text-xs">

@@ -4,14 +4,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const TABS = [
-  { label: "Overview", href: "/foundations/colors/overview" },
-  { label: "Usage", href: "/foundations/colors/usage" },
-  { label: "Tokens", href: "/foundations/colors/tokens" },
-  { label: "Primitives", href: "/foundations/colors/primitives" },
-  { label: "Code", href: "/foundations/colors/code" },
+  { label: "Overview", href: "/foundations/typography/overview" },
+  { label: "Fonts", href: "/foundations/typography/fonts" },
+  { label: "Typescale & tokens", href: "/foundations/typography/typescale" },
+  { label: "Apply type", href: "/foundations/typography/apply" },
 ] as const;
 
-export default function ColorsLayout({
+export default function TypographyLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -23,16 +22,17 @@ export default function ColorsLayout({
       {/* Page header */}
       <div className="mb-6 space-y-1">
         <h1 className="text-3xl font-semibold tracking-tight text-surface-foreground">
-          Color
+          Typography
         </h1>
         <p className="text-surface-foreground-muted">
-          Color distinguishes our brands and reinforces consistent experiences across Disney+, Hulu, and ESPN
+          A purposeful, scalable type system that unifies Disney+, Hulu, and
+          ESPN through role-based tokens and brand-specific typefaces
         </p>
       </div>
 
       {/* Tab bar */}
       <div className="border-b border-surface-border">
-        <nav className="-mb-px flex gap-0" aria-label="Color section">
+        <nav className="-mb-px flex gap-0" aria-label="Typography section">
           {TABS.map((tab) => {
             const isActive = pathname === tab.href;
             return (
